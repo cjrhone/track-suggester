@@ -2,6 +2,12 @@
   display: none;
 }
 
+img {
+  width: 200px;
+  height: auto;
+}
+
+
 #cSharp {
   display: none;
 }

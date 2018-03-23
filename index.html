@@ -23,19 +23,23 @@
             <div class="col-md-4">
               <h5>How difficult should the language be to learn and use?</h5>
               <div class="radio">
-                <label><input type="radio" class="Q1" name="question1" value="1" > Very Hard</label>
+                <label><input type="radio" class="Q1" name="question1" value="0" > Very Hard</label>
               </div>
               <div class="radio">
-                <label><input type="radio" class="Q1" name="question1" value="2" > Hard</label>
+                <label><input type="radio" class="Q1" name="question1" value="1" > Hard</label>
               </div>
               <div class="radio">
-                <label><input type="radio" class="Q1" name="question1" value="3" > Intermediate</label>
+                <label><input type="radio" class="Q1" name="question1" value="2" > Intermediate</label>
               </div>
               <div class="radio">
                 <label><input type="radio" class="Q1" name="question1" value="4" > Easy</label>
               </div>
             </div>
+            <div class="col-md-6">
+              <h1 class = "lead">Results<hr></h1>
           </div>
+        </div>
+
 
   <!-- ENDING Question 1 -->
 
@@ -45,13 +49,13 @@
             <div class="col-md-4">
               <h5>What would you like to build?</h5>
               <div class="radio">
-                <label><input type="radio" class="Q2" name="question2" value="1" > Windows Desktop Applications</label>
+                <label><input type="radio" class="Q2" name="question2" value="0" > Windows Desktop Applications</label>
               </div>
               <div class="radio">
-                <label><input type="radio" class="Q2" name="question2" value="2" > Cross-platform applications/ Android apps</label>
+                <label><input type="radio" class="Q2" name="question2" value="1" > Cross-platform applications/ Android apps</label>
               </div>
               <div class="radio">
-                <label><input type="radio" class="Q2" name="question2" value="3" > Back-end security and content management for websites</label>
+                <label><input type="radio" class="Q2" name="question2" value="2" > Back-end security and content management for websites</label>
               </div>
               <div class="radio">
                 <label><input type="radio" class="Q2" name="question2" value="4" > Interactive applications for websites</label>
@@ -61,28 +65,38 @@
               </div>
             </div>
 
-            <!-- BEGINNING RESULTS PANEL -->
+<!-- BEGINNING RESULTS PANEL -->
                       <div class="col-md-4">
-                        <p>Your result: </p>
-
-                        <div id="cSharp" class="finalresult">
+                        <div id="cSharp" class="finalresult well">
                           <h2>C#</h2>
-                          <p>This is an description about C# provided with a link to <a href="#">Learn More</a></p>
+                          <img src="img/csharp.png">
+                          <p>C# is most popular among bigger established businesses, often for building internal software.
+                             If you like the idea of working for a larger company on business software. <a href="#">Learn More</a></p>
                         </div>
 
-                        <div id="Java" class="finalresult">
+                        <div id="Java" class="finalresult well">
                           <h2>Java</h2>
-                          <p>This is an description about C# provided with a link to <a href="#">Learn More</a></p>
+                          <img src="img/java.png">
+                          <p>Java is a favorite of enterprise companies, but its appeal is broader as well:
+                            it's one of the most popular of all programming languages, and it's used in everything
+                            from for high-performance processing to building Android user interfaces.<a href="#">Learn More</a></p>
                         </div>
 
-                        <div id="PHP" class="finalresult">
+                        <div id="PHP" class="finalresult well">
                           <h2>PHP</h2>
-                          <p>This is an description about C# provided with a link to <a href="#">Learn More</a></p>
+                          <img src="img/php.png">
+                          <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'.
+                            It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla.
+                            But the versatility of the language and the frameworks it powers make employment options numerous and diverse.<a href="#">Learn More</a></p>
                         </div>
 
-                        <div id="Ruby" class="finalresult">
+                        <div id="Ruby" class="finalresult well">
                           <h2>Ruby</h2>
-                          <p>This is an description about C# provided with a link to <a href="#">Learn More</a></p>
+                          <img src="img/ruby.png">
+                          <p>Ruby is a favorite language of developers building interactive web applications.
+                            Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks
+                            associated with building web applications. It's most popular with startups and smaller companies who are looking to
+                            build their product quickly. <a href="#">Learn More</a></p>
                       </div>
                     </div>
 
@@ -100,19 +114,68 @@
 <!-- BEGINNING Question 3 -->
             <h5>How important is job placement?</h5>
             <div class="radio">
-              <label><input type="radio" class="Q3" name="question3" value="2"> Very Important</label>
+              <label><input type="radio" class="Q3" name="question3" value="1"> Very Important</label>
             </div>
             <div class="radio">
-              <label><input type="radio" class="Q3" name="question3" value="1"> Important</label>
+              <label><input type="radio" class="Q3" name="question3" value="0"> Important</label>
             </div>
             <div class="radio">
-              <label><input type="radio" class="Q3" name="question3" value="3"> Somewhat Important</label>
+              <label><input type="radio" class="Q3" name="question3" value="2"> Somewhat Important</label>
             </div>
             <div class="radio">
               <label><input type="radio" class="Q3" name="question3" value="4"> Not Important</label>
             </div>
 
 <!-- ENDING Question 3 -->
+
+
+
+<!-- BEGINNING Question 4 -->
+            <h5>Are you more interested in developing websites or software</h5>
+            <div class="radio">
+              <label><input type="radio" class="Q4" name="question4" value="1">Software</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" class="Q4" name="question4" value="4">Web</label>
+            </div>
+
+
+<!-- ENDING Question 4 -->
+
+
+<!-- BEGINNING Question 5 -->
+            <h5>Is cross-platform important to you?</h5>
+            <div class="radio">
+              <label><input type="radio" class="Q5" name="question5" value="2"> Yes</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" class="Q5" name="question5" value="0"> No</label>
+            </div>
+
+<!-- ENDING Question 5 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
 
 

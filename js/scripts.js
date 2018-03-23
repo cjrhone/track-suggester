@@ -9,24 +9,24 @@ $(document).ready(function() {
 
     var result = answer1 + answer2 + answer3;
 
-    if (result <= 6 ) {
+    if (result <= 4 ) {
       alert("cSharp!");
       $(".finalresult").fadeOut();
       $("#cSharp").fadeIn();
 
 
-    } else if ( result > 6 && result <= 9 ) {
+    } else if ( result > 5 && result <= 8 ) {
       alert("#Java!");
       $(".finalresult").fadeOut();
       $("#Java").fadeIn();
 
-    } else if ( result > 9 && result <= 12  ) {
+    } else if ( result > 9 && result <= 11  ) {
       alert("#PHP!");
       $(".finalresult").fadeOut();
       $("#PHP").fadeIn();
 
 
-    } else if ( result > 12 && result <= 15 ) {
+    } else if ( result >= 12 ) {
       alert("#Ruby!");
       $(".finalresult").fadeOut();
       $("#Ruby").fadeIn();
