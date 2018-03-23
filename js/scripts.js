@@ -1,8 +1,6 @@
 $(document).ready(function() {
   $("#quizForm").submit(function(event) {
 
-    alert("you pressed a button! congrats!");
-
     event.preventDefault();
 
     var answer1 = parseInt($('input[name=question1]:checked','#quizForm').val());
@@ -11,17 +9,33 @@ $(document).ready(function() {
 
     var result = answer1 + answer2 + answer3;
 
-    if (result === 3 ) {
-      alert("1");
+    if (result <= 6 ) {
+      alert("cSharp!");
+      $(".finalresult").fadeOut();
       $("#cSharp").fadeIn();
-    } else if ( result > 3 && result <= 6 ) {
-      alert("#Java");
-    } else if ( result > 6 && result <= 9  ) {
-      alert("#PHP");
-    } else if ( result > 9 && result <= 12 ) {
-      alert("#Ruby");
+
+
+    } else if ( result > 6 && result <= 9 ) {
+      alert("#Java!");
+      $(".finalresult").fadeOut();
+      $("#Java").fadeIn();
+
+    } else if ( result > 9 && result <= 12  ) {
+      alert("#PHP!");
+      $(".finalresult").fadeOut();
+      $("#PHP").fadeIn();
+
+
+    } else if ( result > 12 && result <= 15 ) {
+      alert("#Ruby!");
+      $(".finalresult").fadeOut();
+      $("#Ruby").fadeIn();
+
+      
     } else {
-      alert("Did not recieve input")
+      alert("Did not recieve input!")
+
+
     };
 
 event.preventDefault();
