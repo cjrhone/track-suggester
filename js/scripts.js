@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     event.preventDefault();
 
-    var choiceInput = parseInt($('.Q1').val());
+    var choiceInput = parseInt($('input[name=question1]:checked','#quizForm').val());
 
     if (choiceInput === 1 ) {
       alert("1");
