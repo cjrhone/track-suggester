@@ -17,18 +17,18 @@ $(document).ready(function() {
       $("#cSharp").fadeIn();
 
 
-    } else if ( result > 5 && result <= 8 ) {
+    } else if ( result >= 5 && result <= 8 ) {
       alert("#Java!");
       $(".finalresult").fadeOut();
       $("#Java").fadeIn();
 
-    } else if ( result > 9 && result <= 11  ) {
+    } else if ( result >= 9 && result <= 12  ) {
       alert("#PHP!");
       $(".finalresult").fadeOut();
       $("#PHP").fadeIn();
 
 
-    } else if ( result >= 12 ) {
+    } else if ( result >= 13 ) {
       alert("#Ruby!");
       $(".finalresult").fadeOut();
       $("#Ruby").fadeIn();
