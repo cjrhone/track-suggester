@@ -1,3 +1,19 @@
 .results {
   display: none;
 }
+
+#cSharp {
+  display: none;
+}
+
+#Java {
+  display: none;
+}
+
+#PHP {
+  display: none;
+}
+
+#Ruby {
+  display: none;
+}
