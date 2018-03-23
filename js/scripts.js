@@ -31,9 +31,9 @@ $(document).ready(function() {
       $(".finalresult").fadeOut();
       $("#Ruby").fadeIn();
 
-      
+
     } else {
-      alert("Did not recieve input!")
+      alert("Please check an answer for each question")
 
 
     };
