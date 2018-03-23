@@ -6,8 +6,10 @@ $(document).ready(function() {
     var answer1 = parseInt($('input[name=question1]:checked','#quizForm').val());
     var answer2 = parseInt($('input[name=question2]:checked','#quizForm').val());
     var answer3 = parseInt($('input[name=question3]:checked','#quizForm').val());
+    var answer4 = parseInt($('input[name=question4]:checked','#quizForm').val());
+    var answer5 = parseInt($('input[name=question5]:checked','#quizForm').val());
 
-    var result = answer1 + answer2 + answer3;
+    var result = answer1 + answer2 + answer3 + answer4 + answer5;
 
     if (result <= 4 ) {
       alert("cSharp!");

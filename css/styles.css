@@ -7,6 +7,11 @@ img {
   height: auto;
 }
 
+.finalresult {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #cSharp {
   display: none;
@@ -22,4 +27,13 @@ img {
 
 #Ruby {
   display: none;
+}
+
+#resultbox {
+  padding: 20px;
+  margin-right: 50px;
+}
+
+button{
+  align-self: center;
 }
