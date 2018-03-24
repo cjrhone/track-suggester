@@ -18,6 +18,10 @@ img {
 }
 
 
+#undecided {
+  display: none;
+}
+
 #cSharp {
   display: none;
 }
